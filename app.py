@@ -275,7 +275,7 @@ with open('model.pkl', 'rb') as f:
 # Title for your web app
 st.title('Iris Flower Classification')
 
-st.image('irisflowers.png', width=250)
+st.image('irisflowers.png', width=200)
 
 # Input fields for features
 sepal_length = st.text_input("Enter Sepal Length (cm)")
